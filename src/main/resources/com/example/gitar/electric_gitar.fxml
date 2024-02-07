@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" fx:controller="com.example.gitar.ElectricController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="245.0" prefWidth="931.0">
+         <children>
+            <Button fx:id="one" layoutX="21.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="567.0" text="Mi" />
+            <Button fx:id="two" layoutX="21.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="567.0" text="Ci" />
+            <Button fx:id="three" layoutX="18.0" layoutY="88.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="567.0" text="C" />
+            <Button fx:id="four" layoutX="17.0" layoutY="123.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="567.0" text="Re" />
+            <Button fx:id="five" layoutX="16.0" layoutY="161.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="567.0" text="l" />
+            <Button fx:id="six" layoutX="15.0" layoutY="197.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="567.0" text="Мi" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
